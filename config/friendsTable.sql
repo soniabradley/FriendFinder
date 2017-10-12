@@ -8,14 +8,18 @@ CREATE TABLE friends (
     name VARCHAR(100) NOT NULL,
     photo VARCHAR(250) NOT NULL,
     scores INT(10) NOT NULL,
+	date TIMESTAMP,
     PRIMARY KEY (ItemID)
 );
 
 
 
 INSERT INTO friends (name, photo, scores)
-VALUES  ("Jack White","https://static01.nyt.com/images/2012/04/08/magazine/08white4/08white4-jumbo.jpg",["5","3","5","1","5","1","3","1","3","5"]
-		);
+VALUES  ({
+		name: "Jack White",
+		photo: "JackWhite.png",
+		scores: ["5","3","5","1","5","1","3","1","3","5"]
+		},
 		{
 		name: "Madonna",
 		photo: "https://cdn.theatlantic.com/assets/media/img/mt/2017/01/RTSWQXR/lead_large.jpg?1485185999",
