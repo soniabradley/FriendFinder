@@ -1,8 +1,8 @@
 var friends = require("../data/friends.js");
 
-module.exports = function (app) {
+module.exports = function (app) { 
 
-// build a route to view friends.js * cannot connect!!!! on localhost:1080/api/friends
+// build a route to view friends.js on localhost:1080/api/friends
 	app.get("/api/friends", function(req, res) {
 		res.json(friends);
 	});
@@ -24,7 +24,7 @@ var userScores = userData.scores;
 console.log(userScores); 
 
 var totalDifference = 0;
-
+// nested forloop
 for (var i =0; i < friends.length; i++) {
 	
 	console.log(friends[i]);
