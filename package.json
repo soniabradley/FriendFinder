@@ -1,5 +1,5 @@
 {
-  "name": "FriendFinder",
+  "name": "friendfinder",
   "version": "1.0.0",
   "description": "FriendFinder",
   "main": "server.js",
@@ -19,7 +19,8 @@
   "homepage": "https://github.com/soniabradley/FriendFinder#readme",
   "dependencies": {
     "body-parser": "^1.18.1",
-    "express": "^4.15.4",
-    "path": "^0.12.7"
+    "express": "^4.16.3",
+    "path": "^0.12.7",
+    "save": "^2.3.2"
   }
 }
